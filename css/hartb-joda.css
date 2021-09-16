@@ -1,0 +1,94 @@
+.hartb1{
+  margin: -120px 0 0 800px;
+}
+
+body {
+  /* background-color: #e2353c; */
+    /* color: rgba(255, 255, 255, 0.65); */
+    background-image: url(https://raw.githubusercontent.com/Jodavid/HartB/master/hartb-back.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom right;
+}
+
+#container {
+    background: transparent url(https://raw.githubusercontent.com/Jodavid/HartB/master/highlight-bg.jpg) 50% -250px no-repeat;
+    min-height: 595px;
+}
+
+header {
+    background: transparent url(https://raw.githubusercontent.com/Jodavid/HartB/master/hartb.png) 10% 0 no-repeat;
+    background-position: center;
+    background-size: 500px;
+    background-position-y: 10px;
+    text-align: left;
+    padding: 200px 0 0 0;
+}
+
+header h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-weight: 700;
+    letter-spacing: -1px;
+    font-size: 2em;
+    color: #303030;
+    line-height: 1.2;
+    margin: 0 0 .5em;
+}
+
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+/* Style the close button */
+.topright {
+  float: right;
+  cursor: pointer;
+  font-size: 28px;
+}
+
+.topright:hover {color: red;}
+
+.tabset-dropdown > .nav-tabs {
+    background-color: white;
+    display: inline-table;
+    max-height: 500px;
+    min-height: 44px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
